@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+data/bus/fare_rules.txt
+data/bus/fare_attributes.txt
+data/bus/stop_times.txt

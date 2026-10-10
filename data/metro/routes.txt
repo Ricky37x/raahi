@@ -1,0 +1,13 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order,continuous_pickup,continuous_drop_off
+Delhi1,DMRC,1,Red Line,,1,,ED1C24,FFFFFF,10,,
+Delhi2,DMRC,2,Yellow Line,,1,,F7B32B,FFFFFF,20,,
+Delhi3,DMRC,3,Blue Line (Noida Main Line),,1,,0072BC,FFFFFF,30,,
+Delhi4,DMRC,4,Blue Line (Vaishali Branch),,1,,0072BC,FFFFFF,40,,
+Delhi5,DMRC,5,Green Line,,1,,22B24C,FFFFFF,50,,
+Delhi6,DMRC,6,Violet Line,,1,,702C91,FFFFFF,60,,
+Delhi7,DMRC,7,Pink Line,,1,,F172AC,FFFFFF,70,,
+Delhi8,DMRC,8,Magenta Line,,1,,C6168D,FFFFFF,80,,
+Delhi9,DMRC,9,Grey Line,,1,,939598,FFFFFF,90,,
+DelhiAirport,DMRC,Airport,Airport Express (Orange) Line,,1,,F36F32,FFFFFF,65,,
+Gurgaon1,DMRC,Gurgaon,Gurgaon Rapid Metro,,1,,16C1F3,FFFFFF,991,,
+NoidaAqua,DMRC,Aqua,Noida Aqua Line,,1,,63C29C,FFFFFF,992,,

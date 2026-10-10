@@ -7,12 +7,15 @@ import path from "node:path";
 
 export type Mode = "bus" | "metro";
 
+
 export type IndexedStop = {
   stopId: string;
   stopName: string;
   lat: number;
   lon: number;
+  mode: Mode;
 };
+
 
 export type IndexedTrip = {
   tripId: string;
@@ -116,13 +119,15 @@ async function buildRouteIndex(): Promise<IndexedRoute[]> {
         continue;
       }
 
-      stopMap.set(stop.stop_id, {
-        stopId: stop.stop_id,
-        stopName: stop.stop_name,
-        lat,
-        lon,
-      });
-    }
+   
+stopMap.set(stop.stop_id, {
+  stopId: stop.stop_id,
+  stopName: stop.stop_name,
+  lat,
+  lon,
+  mode,
+});
+}
 
     const routeMap = new Map(
       rawRoutes.map((route) => [route.route_id, route])
